@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sidebar {
+  background: #F3F3F3;
+  border-radius: 15px;
+  margin: 26px 0px;
+  width: 213px;
+}
+
+.sidebar-items img {
+  margin-right: 17px;
+}
+
+.logo {
+  font-family: Roboto;
+  font-style: normal;
+  color: #2C2C2C;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 89px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul {
+  padding: 5px 0px 10px 22px !important;
+}
+
+ul li {
+  width: 100%;
+  list-style-type: none;
+  margin-bottom: 34px;
+  padding: 10px;
+}
+
+ul li a {
+  padding: 11px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #2C2C2C;
+}
+
+ul li:hover {
+  border-right: 3px solid #2C2C2C;
+}
+
+ul li:hover a {
+  background: rgba(196, 196, 196, 0.5);
+  border-radius: 10px;
+}
+
+p {
+  margin-bottom: 0rem !important;
+}
+
+.hero {
+  margin: 26px;
+  float: right;
+}
+
+.notify {
+  background: #F3F3F3;
+  border-radius: 8px;
+  width: 53px;
+  height: 49px;
+  padding: 13px 16px;
+  margin-right: 31px;
+}
+
+.user {
+  background: #F3F3F3;
+  border-radius: 8px;
+  border: 1px solid #53CF48;
+  text-decoration: none;
+  color: #000000;
+  width: 182px;
+  height: 49px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* multiple line 
+ comment */
+/*# sourceMappingURL=styles.css.map */
