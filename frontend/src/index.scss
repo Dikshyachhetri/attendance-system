@@ -27,10 +27,10 @@ code {
 	border-radius: 40px;
 }
 
-html {
-	// font-size: 62.5%;
-	overflow: hidden;
-}
+// html {
+// 	// font-size: 62.5%;
+// 	overflow: hidden;
+// }
 
 .flex-all {
 	display: flex;
@@ -165,13 +165,17 @@ p {
 	min-height: 100vh;
 
 	.left {
-		background-color: #8fb182;
+		// background-color: #8fb182;
+		img {
+			object-fit: contain;
+			min-width: 30%;
+		}
 	}
 
 	.right {
-		// .log-content {
-		// 	width: 430px;
-		// }
+		.log-content {
+			width: 410px;
+		}
 		.feather {
 			margin-bottom: 100px;
 		}
@@ -180,5 +184,12 @@ p {
 			outline: 0;
 			border-width: 0 0 2px;
 		}
+		.form-control {
+			padding: 0;
+		}
 	}
+}
+
+.first {
+	background-color: rgb(255, 233, 233);
 }

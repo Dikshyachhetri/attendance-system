@@ -4,17 +4,18 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
 	return (
+
 		<div>
 			<Row className="login-page">
 
 				{/* left-side */}
-				<Col md={6}>
-					<img src="images/feather-login-img.png" alt="" className="login-img"></img>
+				<Col md={6} className="left flex-all">
+					<img src="images/feather-login-img.png" alt="" ></img>
 				</Col>
 
 
 				{/* right-side */}
-				<Col md={6} className=" d-flex flex-all form right">
+				<Col md={6} className=" flex-all form right">
 					<div className="log-content">
 						<h1 className="text-center feather">FeatherWebs </h1>
 						<div className="log-body">
