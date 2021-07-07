@@ -23,14 +23,25 @@ code {
 }
 
 .btn {
-	padding: 15px 66px;
+	padding: 12px 49px;
 	border-radius: 40px;
+	background: #474141;
+	border-radius: 5px;
+	display: inline-block;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
 }
 
-// html {
-// 	// font-size: 62.5%;
-// 	overflow: hidden;
-// }
+html {
+	// font-size: 62.5%;
+	// overflow: hidden;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
 
 .flex-all {
 	display: flex;
@@ -38,11 +49,11 @@ code {
 	align-items: center;
 }
 
-// a,
-// li {
-//     text-decoration: none;
-//     list-style-type: none;
-// }
+a,
+li {
+	text-decoration: none;
+	list-style-type: none;
+}
 
 .sidebar {
 	background: #f3f3f3;
@@ -177,7 +188,19 @@ p {
 			width: 410px;
 		}
 		.feather {
-			margin-bottom: 100px;
+			margin-bottom: 120px;
+			font-weight: 500;
+			font-size: 42px;
+			line-height: 48px;
+		}
+
+		.form-group {
+			label {
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 24px;
+				margin-bottom: 16px;
+			}
 		}
 
 		.custom {
@@ -186,6 +209,20 @@ p {
 		}
 		.form-control {
 			padding: 0;
+		}
+
+		.form-check {
+			padding-left: 0;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 24px;
+			color: #6c6c6d;
+		}
+	}
+	.check-box {
+		margin-bottom: 136px;
+		.checkbox-box {
+			padding: 0 8px;
 		}
 	}
 }

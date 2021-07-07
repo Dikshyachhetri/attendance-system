@@ -3,6 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
+
 	return (
 
 		<div>
@@ -15,9 +16,9 @@ const Login = () => {
 
 
 				{/* right-side */}
-				<Col md={6} className=" flex-all form right">
+				<Col md={6} className="flex-all  form right ">
 					<div className="log-content">
-						<h1 className="text-center feather">FeatherWebs </h1>
+						<h1 className=" feather">Login </h1>
 						<div className="log-body">
 							<div className="form-group myr-top mb-4">
 								<label>Email</label>
@@ -27,13 +28,25 @@ const Login = () => {
 								<label>Password</label>
 								<input type="password" className="form-control custom" placeholder="********" required></input>
 							</div>
-							<div class="form-check d-flex justify-content-between mb-5">
+							<div class="form-check d-flex justify-content-between">
+								{/* <div>
+									<label for="exampleCheck1">Keep me logged In</label>
+									<input type="checkbox" id="exampleCheck1"></input>
+								</div> */}
+								<div className="check-box">
+									<input type="checkbox" id="scales" name="scales"></input>
+									<label for="scales" className="checkbox-box">Remember Me</label>
+								</div>
 
-								<label className="form-check-label" for="exampleCheck1"><input type="checkbox" className="form-check-input" id="exampleCheck1"></input>Keep me logged In</label>
+
+								{/* <div>
+									<label><input type="checkbox" id="cbox1" value="first_checkbox"> </input> Este es mi primer checkbox </label>
+								</div> */}
+
 								<Link to="/">Forgot Password?</Link>
 							</div>
-							<div className="log-btn text-center">
-								<Link to="#" className="btn btn-primary">Sign In</Link>
+							<div className="log-btn ">
+								<Link to="#" className="btn btn-primary">SIGN IN</Link>
 							</div>
 
 						</div>

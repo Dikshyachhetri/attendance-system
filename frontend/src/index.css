@@ -22,8 +22,19 @@ code {
 }
 
 .btn {
-  padding: 15px 66px;
+  padding: 12px 49px;
   border-radius: 40px;
+  background: #474141;
+  border-radius: 5px;
+  display: inline-block;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 .flex-all {
@@ -36,6 +47,12 @@ code {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .sidebar {
@@ -182,7 +199,17 @@ p {
 }
 
 .login-page .right .feather {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+}
+
+.login-page .right .form-group label {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 16px;
 }
 
 .login-page .right .custom {
@@ -192,6 +219,22 @@ p {
 
 .login-page .right .form-control {
   padding: 0;
+}
+
+.login-page .right .form-check {
+  padding-left: 0;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6c6c6d;
+}
+
+.login-page .check-box {
+  margin-bottom: 136px;
+}
+
+.login-page .check-box .checkbox-box {
+  padding: 0 8px;
 }
 
 .first {
