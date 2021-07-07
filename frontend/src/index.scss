@@ -111,9 +111,9 @@ ul {
 	}
 }
 
-p {
-	margin-bottom: 0rem !important;
-}
+// p {
+// 	margin-bottom: 0rem !important;
+// }
 
 .hero {
 	margin: 26px;
@@ -186,6 +186,24 @@ p {
 	.right {
 		.log-content {
 			width: 410px;
+			p {
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 24px;
+				color: #6c6c6c;
+				margin-bottom: 56px;
+			}
+			.log-body {
+				.login-back {
+					font-weight: normal;
+					font-size: 16px;
+					line-height: 24px;
+					color: #000000;
+				}
+				span {
+					margin: 0 8px;
+				}
+			}
 		}
 		.feather {
 			margin-bottom: 120px;

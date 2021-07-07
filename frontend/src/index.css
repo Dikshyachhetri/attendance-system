@@ -117,10 +117,6 @@ ul li:hover a {
   border-radius: 10px;
 }
 
-p {
-  margin-bottom: 0rem !important;
-}
-
 .hero {
   margin: 26px;
   float: right;
@@ -196,6 +192,25 @@ p {
 
 .login-page .right .log-content {
   width: 410px;
+}
+
+.login-page .right .log-content p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6c6c6c;
+  margin-bottom: 56px;
+}
+
+.login-page .right .log-content .log-body .login-back {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.login-page .right .log-content .log-body span {
+  margin: 0 8px;
 }
 
 .login-page .right .feather {
