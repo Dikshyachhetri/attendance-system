@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import "../css/login.css"
 
 const Login = () => {
 
@@ -15,7 +16,7 @@ const Login = () => {
 
 
 				{/* right-side */}
-				<Col md={6} className="flex-all  form right ">
+				<Col md={6} className="flex-all form right ">
 					<div className="log-content">
 						<h1 className=" feather">Login </h1>
 						<div className="log-body">
@@ -42,7 +43,7 @@ const Login = () => {
 									<label><input type="checkbox" id="cbox1" value="first_checkbox"> </input> Este es mi primer checkbox </label>
 								</div> */}
 
-								<Link to="/">Forgot Password?</Link>
+								<Link to="/forgotpassword">Forgot Password?</Link>
 							</div>
 							<div className="log-btn ">
 								<Link to="#" className="btn btn-primary">SIGN IN</Link>

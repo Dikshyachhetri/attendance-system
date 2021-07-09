@@ -2,6 +2,8 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Sidebar from './components/Sidebar';
 import Login from './screens/LoginScreen';
+import Dashboard from './screens/Dashboard.js';
+
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ForgotPassword from './screens/ForgotPassword';
 
@@ -11,8 +13,8 @@ const App = () => {
 
     <Router>
       <Switch>
-        <Route path='/' component={Login} exact />
-        {/* <Route path='/' component={Sidebar} exact /> */}
+        <Route path='/login' component={Login} exact />
+        <Route path='/' component={Dashboard} exact />
         <Route path='/forgotpassword' component={ForgotPassword} exact />
 
 

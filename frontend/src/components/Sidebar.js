@@ -1,10 +1,8 @@
 import React from 'react'
-import { Container, Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
-        // <Container>
         <div class="d-flex justify-content-between">
             <div className="sidebar">
                 <div className="logo flex-all justify-content-around m-3">
@@ -45,7 +43,6 @@ const Sidebar = () => {
                 </ul>
             </div>
         </div>
-        // </Container>
     )
 }
 

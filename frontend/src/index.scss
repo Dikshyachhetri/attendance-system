@@ -37,6 +37,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+//code for sidebar and header section
 .flex-all {
 	display: flex;
 	justify-content: center;
@@ -111,11 +112,7 @@ ul {
 		}
 	}
 }
-
-// p {
-// 	margin-bottom: 0rem !important;
-// }
-
+// css for profile elements
 .hero {
 	margin: 26px;
 	float: right;
@@ -172,82 +169,12 @@ ul {
 	display: block;
 }
 
-// login-page-styling
-.login-page {
-	min-height: 100vh;
-	// width: 95%;
-	// margin: auto;
-
-	.left {
-		// background-color: #8fb182;
-		img {
-			object-fit: contain;
-			min-width: 30%;
-		}
-	}
-
-	.right {
-		.log-content {
-			width: 410px;
-			p {
-				font-weight: 500;
-				font-size: 18px;
-				line-height: 24px;
-				color: #6c6c6c;
-				margin-bottom: 56px;
-			}
-			.log-body {
-				.login-back {
-					font-weight: normal;
-					font-size: 16px;
-					line-height: 24px;
-					color: #000000;
-				}
-				span {
-					margin: 0 8px;
-				}
-			}
-		}
-		.feather {
-			margin-bottom: 120px;
-			font-weight: 500;
-			font-size: 42px;
-			line-height: 48px;
-		}
-
-		.form-group {
-			label {
-				font-weight: 500;
-				font-size: 18px;
-				line-height: 24px;
-				margin-bottom: 16px;
-			}
-		}
-
-		.custom {
-			outline: 0;
-			border-width: 0 0 2px;
-		}
-		.form-control {
-			padding: 0;
-		}
-
-		.form-check {
-			padding-left: 0;
-			font-weight: normal;
-			font-size: 14px;
-			line-height: 24px;
-			color: #6c6c6d;
-		}
-	}
-	.check-box {
-		margin-bottom: 136px;
-		.checkbox-box {
-			padding: 0 8px;
-		}
-	}
-}
-
-.first {
-	background-color: rgb(255, 233, 233);
+//css for each window heading
+.heading{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+color: #2F2F2F;
+margin:48px 0px;
 }

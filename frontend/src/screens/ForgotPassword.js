@@ -1,6 +1,8 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import "../css/login.css"
+
 
 const ForgotPassword = () => {
     return (
@@ -29,7 +31,7 @@ const ForgotPassword = () => {
                                 <Link to="#" className="btn btn-primary">SUBMIT</Link>
                             </div>
 
-                            <Link to="/" className="login-back" ><i class="fas fa-chevron-left"></i>
+                            <Link to="/login" className="login-back" ><i class="fas fa-chevron-left"></i>
                                 <span>Back to Login</span> </Link>
 
                         </div>
