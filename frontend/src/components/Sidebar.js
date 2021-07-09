@@ -1,50 +1,51 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Container, Col, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
-
-        <div class="Container d-flex justify-content-between">
-            <section class="sidebar">
-                <div class="logo">
-                    <img src="logo.png" alt=""></img>
+        // <Container>
+        <div class="d-flex justify-content-between">
+            <div className="sidebar">
+                <div className="logo flex-all justify-content-around m-3">
+                    <img src="images/logo-colorful.svg" alt=""></img>
                     <span>FeatherWebs</span>
                 </div>
                 <ul>
                     <li>
                         <Link to="#" className="sidebar-items">
-                            <img src="images/dashboard.png" alt=""></img>
+                            <img src="images/dashboard.svg" alt=""></img>
                             <p> Dashboard</p>
                         </Link>
                     </li>
                     <li>
                         <Link to="/employee" className="sidebar-items">
-                            <img src="images/employee.png" alt=""></img>
+                            <img src="images/employee.svg" alt=""></img>
                             <p> Employee</p>
                         </Link>
                     </li>
                     <li>
                         <Link to="/calendar" className="sidebar-items">
-                            <img src="images/calendar.png" alt=""></img>
+                            <img src="images/calendar.svg" alt=""></img>
                             <p> Calendar</p>
                         </Link>
                     </li>
                     <li>
                         <Link to="/leave" className="sidebar-items">
-                            <img src="images/leave.png" alt=""></img>
+                            <img src="images/leave.svg" alt=""></img>
                             <p> Leave</p>
                         </Link>
                     </li>
                     <li>
                         <Link to="/record" className="sidebar-items">
-                            <img src="images/record.png" alt=""></img>
+                            <img src="images/record.svg" alt=""></img>
                             <p> Record</p>
                         </Link>
                     </li>
                 </ul>
-            </section>
+            </div>
         </div>
+        // </Container>
     )
 }
 

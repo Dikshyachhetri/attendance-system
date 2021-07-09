@@ -9,11 +9,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-/* sidebar-styling */
-/* .dzBYaT {
-  min-width: 250px !important;
-  width: 213px !important;
-} */
 * {
   margin: 0;
   padding: 0;
@@ -55,15 +50,25 @@ li {
   list-style-type: none;
 }
 
+.row {
+  margin: 0;
+  padding: 0;
+}
+
 .sidebar {
   background: #f3f3f3;
   border-radius: 15px;
   margin: 26px 0px;
   width: 213px;
+  height: 100vh;
 }
 
 .sidebar-items img {
   margin-right: 17px;
+}
+
+.sidebar-items p {
+  margin-bottom: 0;
 }
 
 .logo {
@@ -82,34 +87,35 @@ li {
 }
 
 ul {
-  padding: 5px 0px 10px 22px !important;
+  padding: 0;
 }
 
 ul li {
-  width: 100%;
   list-style-type: none;
-  margin-bottom: 34px;
-  padding: 10px;
 }
 
 ul li a {
-  padding: 11px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   text-decoration: none;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   color: #2c2c2c;
+  padding: 8px 0 8px 12px;
+  margin: 40px 12px;
 }
 
 ul li:hover {
   border-right: 3px solid #2c2c2c;
+  border-radius: 2.5px;
 }
 
 ul li:hover a {

@@ -1,12 +1,11 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
 
 	return (
-
-		<div>
+		<>
 			<Row className="login-page">
 
 				{/* left-side */}
@@ -53,7 +52,7 @@ const Login = () => {
 					</div>
 				</Col>
 			</Row>
-		</div>
+		</>
 	)
 }
 
