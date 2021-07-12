@@ -2,6 +2,8 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Sidebar from './components/Sidebar';
 import Login from './screens/LoginScreen';
+// import Calendar from './screens/Calendar';
+
 import Dashboard from './screens/Dashboard.js';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
