@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import Sidebar from './components/Sidebar';
 import Login from './screens/LoginScreen';
 // import Calendar from './screens/Calendar';
+import HomeCalendar from './screens/HomeCalendar';
 
 import Dashboard from './screens/Dashboard.js';
 
@@ -18,6 +19,8 @@ const App = () => {
         <Route path='/login' component={Login} exact />
         <Route path='/' component={Dashboard} exact />
         <Route path='/forgotpassword' component={ForgotPassword} exact />
+        <Route path='/employees' component={ForgotPassword} exact />
+
 
 
       </Switch>

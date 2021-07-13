@@ -5,7 +5,7 @@ const Sidebar = () => {
     return (
         <div class="d-flex justify-content-between">
             <div className="sidebar">
-                <div className="logo flex-all justify-content-around m-3">
+                <div className="logo flex-all justify-content-around my-3 mx-2">
                     <img src="images/logo-colorful.svg" alt=""></img>
                     <span>FeatherWebs</span>
                 </div>

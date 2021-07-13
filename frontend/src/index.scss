@@ -52,16 +52,46 @@ li {
   list-style-type: none;
 }
 
-.row {
-  margin: 0;
-  padding: 0;
-}
+// .row {
+//   margin: 0;
+//   padding: 0;
+// }
 .sidebar {
   background: #f3f3f3;
   border-radius: 15px;
-  margin: 26px 0px;
+  //   margin: 26px 0px;
   width: 213px;
-  height: 100vh;
+  height: 972px;
+  ul {
+    padding: 0;
+
+    li {
+      list-style-type: none;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #2c2c2c;
+        padding: 8px 0 8px 12px;
+        margin: 40px 12px;
+      }
+
+      &:hover {
+        border-right: 3px solid #2c2c2c;
+        border-radius: 2.5px;
+        // background-image: url('../public/images/side-line.svg');
+        a {
+          background: rgba(196, 196, 196, 0.5);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
 }
 
 .sidebar-items {
@@ -80,51 +110,19 @@ li {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 89px;
-  display: flex;
-  align-items: center;
-}
-
-ul {
-  padding: 0;
-
-  li {
-    list-style-type: none;
-
-    a {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      text-decoration: none;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      color: #2c2c2c;
-      padding: 8px 0 8px 12px;
-      margin: 40px 12px;
-    }
-
-    &:hover {
-      border-right: 3px solid #2c2c2c;
-      border-radius: 2.5px;
-      // background-image: url('../public/images/side-line.svg');
-      a {
-        background: rgba(196, 196, 196, 0.5);
-        border-radius: 10px;
-      }
-    }
+  span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
   }
 }
+
 // css for profile elements
-.hero {
-  margin: 26px;
-  float: right;
-}
 
 .notify {
   background: #f3f3f3;
   border-radius: 8px;
-  width: 53px;
-  height: 49px;
+  vertical-align: super;
   padding: 13px 16px;
   margin-right: 31px;
 }
@@ -178,5 +176,13 @@ ul {
   font-weight: 500;
   font-size: 42px;
   color: #2f2f2f;
-  margin: 48px 0px;
+  display: flex;
+  align-items: flex-end;
+
+  //   margin: 48px 0px;
+}
+
+.top-nav {
+  height: 75px;
+  margin-bottom: 50px;
 }
