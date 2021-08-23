@@ -8,17 +8,25 @@
   border-radius: 10px !important;
 }
 
+.dash-calendar {
+  border: 1px solid #d4d4d4;
+  border-radius: 15px;
+}
+
 .leave-btn {
-  margin: 45px 0;
-  padding: 20px 162px;
+  padding: 10px 42.5px;
   background: #f7f7f7;
   border-radius: 15px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 14px;
   color: #2f2f2f;
   border: none;
   display: inline-block;
   text-decoration: none;
+}
+
+.leave-btn img {
+  margin-right: 8px;
 }
 
 .leave {
@@ -129,6 +137,7 @@
   font-weight: normal;
   font-size: 14px;
   color: #6a6a6a;
+  margin: 0;
 }
 
 .name p,
@@ -204,10 +213,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 18px 30px 18px 18px;
+  padding: 10px 30px 10px 10px;
   background-color: #e6e6e6;
   margin-right: 17px;
-  border-radius: 15px;
   margin-bottom: 12px;
 }
 
@@ -221,14 +229,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.scrollbar-second ul li .top .date-box {
-  padding: 5px 16px;
-  background: white;
-  width: 53px;
-  border-radius: 8px;
-  margin: 0;
 }
 
 .scrollbar-second ul li .top :nth-of-type(2) {
@@ -246,11 +246,17 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 3px 7px;
-  background-color: pink;
-  border-radius: 10px;
 }
 
-.scrollbar-second ul li .bottom :nth-of-type(1) {
+.scrollbar-second ul li .bottom p {
+  margin-right: 4px;
+  margin-bottom: 0;
+}
+
+.holiday-date-box {
+  padding: 5px 16px;
+  background: white;
+  width: 53px;
   margin: 0;
 }
 

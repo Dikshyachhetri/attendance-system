@@ -1,0 +1,144 @@
+.employee-body {
+  // background-color: rgb(238, 238, 238);
+  // padding: 30px;
+  margin: 8px 0;
+  border-radius: 15px;
+
+  .dropdown-row {
+    background-color: rgb(238, 238, 238);
+    padding: 18px 37px 10px 38px;
+  }
+  .department-button {
+    padding: 19px;
+    border: none;
+    background-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    color: black;
+    margin: 0 8px;
+    .dropdown-toggle::after {
+      content: unset !important;
+      border: none;
+      background-color: unset;
+    }
+  }
+
+  .status {
+    margin-right: 73px;
+  }
+
+  .search-engine {
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 350px;
+    margin-right: 82px;
+    .form-control {
+      margin: 0 18px;
+      border: none;
+      border: none;
+      outline: none !important;
+      background-color: rgb(238, 238, 238);
+    }
+    img {
+      margin: 0 18px;
+    }
+  }
+  //   textarea:focus,
+  //   input:focus {
+  //     outline: none;
+  //   }
+}
+
+.toggle {
+  // padding: 16px 24px;
+  border-radius: 15px;
+  border: 1px solid gray;
+  transition: 0.3s ease-in-out;
+  margin: 0 8px;
+  &:hover {
+    background-color: rgb(168, 168, 168);
+  }
+}
+
+.list {
+  padding: 20px 23px;
+  // margin-right: 16px;
+}
+
+.grid {
+  padding: 16.75px 23.75px;
+}
+
+.page-container {
+  ul {
+    li {
+      padding: 5px 10.5px;
+      background-color: gainsboro;
+      border-radius: 4px;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      a {
+        color: #000000;
+      }
+    }
+    li:not(:last-child) {
+      // border-right: 5px solid #193fe6;
+      margin-right: 8.5px;
+    }
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .card {
+    width: 245px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    // height: 330px;
+
+    .card-img {
+      width: 100px;
+      margin: 24px 0 29px 0;
+    }
+
+    .card-body {
+      padding: 0;
+
+      .card-title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 10px;
+      }
+
+      .card-text {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #8d8d8d;
+        margin-bottom: 36px;
+      }
+
+      .card-text2 {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 14px;
+      }
+
+      .card-text3 {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #bcbcbc;
+        margin-bottom: 30px;
+      }
+      .phone-icon {
+        vertical-align: text-top;
+        margin: 0 8px;
+      }
+    }
+  }
+}

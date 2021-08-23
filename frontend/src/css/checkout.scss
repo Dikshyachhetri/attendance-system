@@ -1,0 +1,47 @@
+.form-control {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #2f2f2f;
+}
+.sub-heading {
+  font-weight: 500 !important;
+  font-size: 24px !important;
+}
+.top-row {
+  display: flex;
+  align-items: center;
+}
+.date-box {
+  // margin-right: 285px;
+}
+.form-label {
+  margin-right: 8px;
+  color: #000000;
+  margin-bottom: 18px !important;
+}
+.topic,
+.details {
+  background: #efefef;
+  border: 0.5px solid #bebebe;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.topic {
+  width: 512px;
+}
+.details {
+  height: 290px;
+}
+.checkout-btn {
+  padding: 19px 132px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #2f2f2f;
+  background: #e2e2e2;
+  border-radius: 8px;
+  border: none;
+}

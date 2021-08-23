@@ -55,11 +55,15 @@ const Dashboard = () => {
                             <div className="row top-nav">
                                 <div className="col d-flex justify-content-between">
                                     <h1 className="heading">Dashboard</h1>
-                                    <div>
-                                        <Link to="#" className="notify">
-                                            <img src="images/notification.png" alt=""></img>
+                                    <div className="flex-all">
+
+                                        <Link to="/checkout" className="leave-btn">
+                                            <img src="images/checkin.svg" alt=""></img> Check In
                                         </Link>
-                                        <div className="dropdown  mx-1">
+                                        <Link to="/notifications" className="notify">
+                                            <img src="images/notification.svg" alt=""></img>
+                                        </Link>
+                                        <div className="dropdown">
                                             <div className="dropbtn user">
                                                 <img src="images/profile.png" alt=""></img> John Wick
                                                 <img src="images/dropdown-icon.png" alt=""></img>
@@ -67,7 +71,7 @@ const Dashboard = () => {
                                             <div className="dropdown-content">
                                                 <a href="#">My Profile</a>
                                                 <a href="#">Status</a>
-                                                <a href="#">Logout</a>
+                                                <a href="/login">Logout</a>
                                             </div>
                                         </div>
                                     </div>
@@ -79,27 +83,9 @@ const Dashboard = () => {
                     <Row>
                         <Col lg={7}>
                             <Page>
-                                <div className="mbsc-grid">
-                                    <div className="mbsc-row">
-                                        <div className="mbsc-col-sm-12 mbsc-col-md-10">
-                                            <div className="mbsc-form-group">
-                                                <div className="mbsc-form-group-title">Marked days</div>
-                                                <Datepicker controls={['calendar']} display="inline" marked={marked} />
-                                            </div>
-                                        </div>
-                                        {/* <div className="mbsc-col-sm-12 mbsc-col-md-4">
-                        <div className="mbsc-form-group">
-                            <div className="mbsc-form-group-title">Colored days</div>
-                            <Datepicker controls={['calendar']} display="inline" colors={colors} />
-                        </div>
-                    </div>
-                    <div className="mbsc-col-sm-12 mbsc-col-md-4">
-                        <div className="mbsc-form-group">
-                            <div className="mbsc-form-group-title">Labels</div>
-                            <Datepicker controls={['calendar']} display="inline" labels={labels} />
-                        </div>
-                    </div> */}
-                                    </div>
+                                <div className="dash-calendar">
+                                    {/* <div className="mbsc-form-group-title">Marked days</div> */}
+                                    <Datepicker controls={['calendar']} display="inline" marked={marked} />
                                 </div>
                             </Page>
 
@@ -109,7 +95,7 @@ const Dashboard = () => {
                                         <ul class="force-overflow">
                                             <li>
                                                 <div className="top">
-                                                    <p className="date-box">Jul 24</p>
+                                                    <p className="holiday-date-box">Jul 24</p>
                                                     <p>Guru Purnima</p>
                                                 </div>
                                                 <div className="bottom">
@@ -120,7 +106,7 @@ const Dashboard = () => {
 
                                             <li>
                                                 <div className="top">
-                                                    <p className="date-box">Jul 24</p>
+                                                    <p className="holiday-date-box">Jul 24</p>
                                                     <p>Guru Purnima</p>
                                                 </div>
                                                 <div className="bottom">
@@ -131,7 +117,7 @@ const Dashboard = () => {
 
                                             <li>
                                                 <div className="top">
-                                                    <p className="date-box">Jul 24</p>
+                                                    <p className="holiday-date-box">Jul 24</p>
                                                     <p>Guru Purnima</p>
                                                 </div>
                                                 <div className="bottom">
@@ -142,7 +128,7 @@ const Dashboard = () => {
 
                                             <li>
                                                 <div className="top">
-                                                    <p className="date-box">Jul 24</p>
+                                                    <p className="holiday-date-box">Jul 24</p>
                                                     <p>Guru Purnima</p>
                                                 </div>
                                                 <div className="bottom">
@@ -153,7 +139,7 @@ const Dashboard = () => {
 
                                             <li>
                                                 <div className="top">
-                                                    <p className="date-box">Jul 24</p>
+                                                    <p className="holiday-date-box">Jul 24</p>
                                                     <p>Guru Purnima</p>
                                                 </div>
                                                 <div className="bottom">
@@ -164,7 +150,7 @@ const Dashboard = () => {
 
                                             <li>
                                                 <div className="top">
-                                                    <p className="date-box">Jul 24</p>
+                                                    <p className="holiday-date-box">Jul 24</p>
                                                     <p>Guru Purnima</p>
                                                 </div>
                                                 <div className="bottom">
@@ -183,9 +169,7 @@ const Dashboard = () => {
                         <Col lg={5} className="dashboard-right">
 
 
-                            <Link to="#" className="leave-btn">
-                                <img src="images/checkin.svg" alt=""></img> Check In
-                            </Link>
+
                             <h2 className="leave">Leaves</h2>
                             <div className="leave-box">
                                 <div className="d-flex justify-content-between">

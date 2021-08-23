@@ -1,0 +1,146 @@
+.employee-body {
+  margin: 8px 0;
+  border-radius: 15px;
+}
+
+.employee-body .dropdown-row {
+  background-color: #eeeeee;
+  padding: 18px 37px 10px 38px;
+}
+
+.employee-body .department-button {
+  padding: 19px;
+  border: none;
+  background-color: #dfdfdf;
+  border-radius: 15px;
+  color: black;
+  margin: 0 8px;
+}
+
+.employee-body .department-button .dropdown-toggle::after {
+  content: unset !important;
+  border: none;
+  background-color: unset;
+}
+
+.employee-body .status {
+  margin-right: 73px;
+}
+
+.employee-body .search-engine {
+  border: 1px solid gray;
+  border-radius: 15px;
+  width: 350px;
+  margin-right: 82px;
+}
+
+.employee-body .search-engine .form-control {
+  margin: 0 18px;
+  border: none;
+  border: none;
+  outline: none !important;
+  background-color: #eeeeee;
+}
+
+.employee-body .search-engine img {
+  margin: 0 18px;
+}
+
+.toggle {
+  border-radius: 15px;
+  border: 1px solid gray;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  margin: 0 8px;
+}
+
+.toggle:hover {
+  background-color: #a8a8a8;
+}
+
+.list {
+  padding: 20px 23px;
+}
+
+.grid {
+  padding: 16.75px 23.75px;
+}
+
+.page-container ul li {
+  padding: 5px 10.5px;
+  background-color: gainsboro;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.page-container ul li a {
+  color: #000000;
+}
+
+.page-container ul li:not(:last-child) {
+  margin-right: 8.5px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cards .card {
+  width: 245px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.cards .card .card-img {
+  width: 100px;
+  margin: 24px 0 29px 0;
+}
+
+.cards .card .card-body {
+  padding: 0;
+}
+
+.cards .card .card-body .card-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.cards .card .card-body .card-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #8d8d8d;
+  margin-bottom: 36px;
+}
+
+.cards .card .card-body .card-text2 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 14px;
+}
+
+.cards .card .card-body .card-text3 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #bcbcbc;
+  margin-bottom: 30px;
+}
+
+.cards .card .card-body .phone-icon {
+  vertical-align: text-top;
+  margin: 0 8px;
+}
+/*# sourceMappingURL=employees.css.map */

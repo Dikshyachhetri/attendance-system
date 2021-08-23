@@ -37,6 +37,9 @@ code {
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: unset !important;
+  background-image: none !important;
+  // background-color: #f1f1f1 !important;
 }
 
 //code for sidebar and header section
@@ -109,11 +112,13 @@ li {
   color: #2c2c2c;
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 89px;
+  // margin-bottom: 89px;
+  margin-top: 18px;
   span {
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
+    margin-left: 10px;
   }
 }
 
@@ -121,20 +126,21 @@ li {
 
 .notify {
   background: #f3f3f3;
-  border-radius: 8px;
+  border-radius: 55px;
   vertical-align: super;
-  padding: 13px 16px;
-  margin-right: 31px;
+  padding: 11px 13.53px;
+  margin: 0 8px;
 }
 
 .user {
   background: #f3f3f3;
-  border-radius: 8px;
+  border-radius: 69px;
   border: 1px solid #53cf48;
   text-decoration: none;
   color: #000000;
-  width: 182px;
-  height: 49px;
+  // padding: 11px;
+  width: 150px;
+  height: 44px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
